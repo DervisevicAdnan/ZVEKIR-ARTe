@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ZVEKIR-ARTe</title>
+	<link rel="stylesheet" type="text/css" href="stil.css">
+	<link rel="stylesheet" type="text/css" href="sadrzaj.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="h">
+		<div style="float: left; padding-left: 60px; padding-top: 95px;">
+			<center>
+				<h1>GALERIJA</h1><h1>ZVEKIR-ARTe</h1>
+			</center>
+		</div>
+	</div>
+	<div id="sadrzaj">
+		<center>
+			<div id="slideshow">
+				<div id="prikaz">
+					<div id="prikazS">
+						<img class="myImg" src="saumjetnikom.jpg" onclick="otvoriSliku(0)">
+						<img class="myImg" src="musterija.jpg" width="960px" onclick="otvoriSliku(1)">
+						<img class="myImg" src="unuka.jpg" style="margin-left: 217.5px; margin-right: 217.5px;" onclick="otvoriSliku(2)">
+						<img class="myImg" src="odekonj.jpg" width="960px" onclick="otvoriSliku(3)">
+						<img class="myImg" src="musterija2.jpg" style="margin-left: 217.5px; margin-right: 217.5px;" onclick="otvoriSliku(4)">
+					</div>
+				</div>
+			</div>
+			<div id="galerija">
+				<img class="myImg" src="sl.jpg" onclick="otvoriSliku(5)">
+				<img class="myImg" src="sl1.jpg" onclick="otvoriSliku(6)"><br>
+				<img class="myImg" src="sl2.jpg" onclick="otvoriSliku(7)">
+				<img class="myImg" src="sl3.jpg" onclick="otvoriSliku(8)">
+				<img class="myImg" src="sl4.jpg" onclick="otvoriSliku(9)">
+				<img class="myImg" src="sl5.jpg" onclick="otvoriSliku(10)"><br>
+				<img class="myImg" src="sl6.jpg" onclick="otvoriSliku(11)">
+				<img class="myImg" src="sl7.jpg" onclick="otvoriSliku(12)"><br>
+				<img class="myImg" src="sl8.jpg" onclick="otvoriSliku(13)">
+				<img class="myImg" src="sl9.jpg" onclick="otvoriSliku(14)">
+				<img class="myImg" src="sl10.jpg" onclick="otvoriSliku(15)"><br>
+				<img class="myImg" src="sl11.jpg" onclick="otvoriSliku(16)">
+				<img class="myImg" src="sl12.jpg" onclick="otvoriSliku(17)"><br>
+				<img class="myImg" src="sl13.jpg" onclick="otvoriSliku(18)">
+				<img class="myImg" src="sl14.jpg" onclick="otvoriSliku(19)"><br>
+				<img class="myImg" src="sl15.jpg" onclick="otvoriSliku(20)">
+				<img class="myImg" src="sl16.jpg" onclick="otvoriSliku(21)"><br>
+				<img class="myImg" src="sl17.jpg" onclick="otvoriSliku(22)">
+				<img class="myImg" src="sl18.jpg" onclick="otvoriSliku(23)">
+				<img class="myImg" src="sl19.jpg" onclick="otvoriSliku(24)"><br>
+				<img class="myImg" src="sl20.jpg" onclick="otvoriSliku(25)">
+				<img class="myImg" src="sl21.jpg" onclick="otvoriSliku(26)">
+				<img class="myImg" src="sl22.jpg" onclick="otvoriSliku(27)">
+			</div>
+		</center>
+	</div>
+	<div id="footer">
+		<div>
+			Vlasnik: Šefko Husić<br><br>
+			Adresa: Abadžiluk br. 16<br><br>
+			Telefon: <a href="tel: +387603291628">+387 60 32 91 628</a><br><br>
+			e-mail: <a href="mailto: zvekir.arte@gmail.com">zvekir.arte@gmail.com</a><br>
+		</div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d719.2124848350242!2d18.43018972923428!3d43.85893886569545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c9a5dd0a0bdd%3A0x2a42b14640e9d7c0!2sZVEKIR-ARTe!5e0!3m2!1shr!2sba!4v1561320797151!5m2!1shr!2sba" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div id="myModal" class="modal">
+		<span class="close" onclick="zatvori()">&times;</span>
+		<img class="modal-content" id="img01">
+		<div id="caption"></div>
+	</div>
+	<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
